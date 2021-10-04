@@ -1,0 +1,99 @@
+    body {
+        background: #95e5e0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    .main-content {
+        flex: 1;
+    }
+    
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 64px;
+    }
+    
+    .field-task {
+        width: 40%;
+        height: 40px;
+        margin-left: 20px;
+        padding: 0px 20px 0px 20px;
+        border: 2px solid rgb(131, 126, 126);
+        border-radius: 10px;
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+    }
+    
+    .list-form {
+        margin-bottom: 50px;
+        padding: 40px 12px;
+    }
+    
+    .toggle {
+        text-decoration: line-through;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    span {
+        display: none;
+        color: red;
+    }
+    
+    p {
+        margin: 1px;
+        padding: 1px;
+    }
+    
+    p:hover {
+        font-style: italic;
+        cursor: pointer;
+    }
+    
+    p:hover span {
+        display: inline-block;
+    }
+    
+    .button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        border: none;
+        font-size: 12px;
+        cursor: pointer;
+        float: left;
+    }
+    
+    .button:hover {
+        background-color: #3e8e41;
+    }
+    
+    .addButton {
+        margin-left: 20px;
+        border-radius: 20px;
+    }
+    
+    .footer {
+        flex-shrink: 0;
+        background-color: #4CAF50;
+    }

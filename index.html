@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main-content">
+        <H1>TO DO LIST</H1>
+        <form method="post" class="list-form">
+            <div class="form">
+                <input type="text" class="field-task" placeholder="Добавьте задание">
+                <button class="button addButton " type="submit">Добавить</button>
+            </div>
+        </form>
+        <div>
+            <div class="list">
+                <p class="toggle">
+                    Написать ToDo list <span class="destroy"> &#10008;</span>
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer ">
+        <div class="btn-group">
+            <button id="allTask" class="button">Все задания</button>
+            <button id="activeTask" class="button">Неготовые задания</button>
+            <button id="completedTask" class="button">Готовые задания</button>
+            <button id="deleteCompletedTask" class="button">Удалить готовые задачи</button>
+            <button id="AllDelete" class="button">Удалить все задачи</button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
